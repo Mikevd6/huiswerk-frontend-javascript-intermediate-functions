@@ -1,5 +1,4 @@
 // Functie voor het berekenen van het aantal Cum Laude studenten
-
 function cumLaude(gradesArray) {
     if (!Array.isArray(gradesArray)) {
         throw new Error("Input moet een array zijn.");
@@ -30,7 +29,6 @@ try {
 }
 
 // Functie voor het berekenen van het gemiddelde cijfer
-
 function averageGrade(gradesArray) {
     if (!Array.isArray(gradesArray)) {
         throw new Error("Input moet een array zijn.");
@@ -60,7 +58,6 @@ try {
 }
 
 // Functie voor het vinden van het hoogste cijfer
-
 function highestGrade(gradesArray) {
     if (!Array.isArray(gradesArray)) {
         throw new Error("Input moet een array zijn.");
